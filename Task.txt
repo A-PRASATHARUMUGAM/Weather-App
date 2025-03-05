@@ -1,0 +1,13 @@
+Task: Build a responsive and visually appealing weather landing page using modern front-end technologies.
+
+Responsibilities:
+Develop a clean and interactive UI with real-time weather data display.
+Use React/Vue/Next.js (or any preferred framework) for a dynamic experience.
+Implement animations and transitions for a smooth UX.
+Ensure responsiveness across all devices.
+Integrate API calls to fetch weather data from OpenWeatherMap or a similar source.
+Optimize for performance and accessibility.
+Deliverables:
+Deployed preview on Vercel/Netlify.
+Mobile & desktop responsive designs.
+

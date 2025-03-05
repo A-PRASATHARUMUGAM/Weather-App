@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: whitesmoke;
+
+
+}
+.main-container{
+    border: 1px solid red;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:98vh;
+}
+
+.weather-container{
+   border: 1px solid black;
+   width: 70vw;
+   height:70vh;
+   border-radius: 25px ;
+
+
+}
