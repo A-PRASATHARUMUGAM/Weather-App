@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding:0;
-    background-color: whitesmoke;
+    background-color:gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 
 
 }
@@ -14,10 +16,58 @@ body{
 }
 
 .weather-container{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
    border: 1px solid black;
-   width: 70vw;
+   width: 70vw; 
    height:70vh;
    border-radius: 25px ;
+   background-color:white;
+
+}
+/* Right side contianer */
+.rightside-container{
+    border: 1px solid yellow;
+    width:75%;
+    height:100%;
+    border-radius:25px 0px 0px 25px;
 
 
+}
+.date-container{
+    margin:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.country{
+    padding: 8px; 
+    margin-right:100px;
+}
+.degree-container{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.degree-text{
+    font-size:150px;
+}
+.degree-text2{
+
+    font-size:40px;
+}
+
+/* left  side container */
+.leftside-container{
+    width:40%;
+    height: 100%;
+    border-radius:0px 25px 25px 0px;
+    background-color:lightgray;
+    text-align: center;
 }
