@@ -44,6 +44,7 @@ body{
     align-items: center;
     text-align: center;
     font-variant: small-caps;
+    font-weight:5-600;
 
 }
 .country{
@@ -52,26 +53,30 @@ body{
 }
                         /* Temperature container */
 .degree-container{
-    margin-top:40px;
+    margin-top:20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
-    border: 1px solid red;
+    border: 1px  solid black;
+  
 }
+                            /* Weather temp box */
 .weather-temp-box{
-    border:1px solid black;
+  
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items:center;
    position:relative;
-
+    border: 1px solid yellow;
 }
 .degree-round{
   position: absolute;
   top:1px;
   right:-50px;
   font-size:70px;
+  font-weight: bold;
   color:var(--gray-color);
 
 }
@@ -84,18 +89,38 @@ body{
 }
 .degree-text2{
     display: block;
-    border: 1px solid;
     text-align: center;
     color: var(--gray-color);
     font-size:40px;
     font-weight: 200;
 }
+                            /* Weather small temp box */
+.weather-temp-sm-box{
+ margin-top:40px;
+ border:  1px solid black;
+ width:70%;
 
-/* left  side container */
+
+}
+
+
+                                    /* left  side container */
 .leftside-container{
-    width:40%;
-    height: 100%;
+    width:30%;
+    height:100%;
     border-radius:0px 25px 25px 0px;
     background-color:lightgray;
     text-align: center;
 }
+
+
+                        /* Transition   */
+/* .leftside-container:hover{
+    height: 120%; 
+    transition:0.5s;    
+}
+.rightside-container:hover{
+    background-color: yellow;
+    height: 120%; 
+    transition:0.5s;    
+} */
