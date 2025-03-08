@@ -58,7 +58,6 @@ body{
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    border: 1px  solid black;
   
 }
                             /* Weather temp box */
@@ -69,7 +68,6 @@ body{
    justify-content: center;
    align-items:center;
    position:relative;
-    border: 1px solid yellow;
 }
 .degree-round{
   position: absolute;
@@ -95,14 +93,31 @@ body{
     font-weight: 200;
 }
                             /* Weather small temp box */
-.weather-temp-sm-box{
+.weather-temp-box2{
  margin-top:40px;
- border:  1px solid black;
- width:70%;
+ display: flex;
+ justify-content: space-evenly;
+font-size:14px;
+column-gap:15px;
 
 
 }
+.weather-daily-details{
+font-variant: small-caps;
+margin:5px;
+display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: lighter;
+padding:10px;
+border-radius: 10px;
 
+
+}
+.weather-daily-details:hover{
+    transition:0.5s; 
+    border: 1px solid gray;
+}
 
                                     /* left  side container */
 .leftside-container{
