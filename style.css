@@ -3,12 +3,15 @@ body{
     padding:0;
     background-color:gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
 
 
 }
+:root{
+
+    --gray-color:rgb(109, 109, 109); 
+
+}
 .main-container{
-    border: 1px solid red;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -28,7 +31,6 @@ body{
 }
 /* Right side contianer */
 .rightside-container{
-    border: 1px solid yellow;
     width:75%;
     height:100%;
     border-radius:25px 0px 0px 25px;
@@ -41,26 +43,52 @@ body{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    font-variant: small-caps;
 
 }
 .country{
     padding: 8px; 
     margin-right:100px;
 }
+                        /* Temperature container */
 .degree-container{
-    margin-top:50px;
+    margin-top:40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    border: 1px solid red;
+}
+.weather-temp-box{
+    border:1px solid black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   position:relative;
+
+}
+.degree-round{
+  position: absolute;
+  top:1px;
+  right:-50px;
+  font-size:70px;
+  color:var(--gray-color);
+
 }
 
 .degree-text{
+    display: block;
+    color: var(--gray-color);
     font-size:150px;
+    font-weight:500;
 }
 .degree-text2{
-
+    display: block;
+    border: 1px solid;
+    text-align: center;
+    color: var(--gray-color);
     font-size:40px;
+    font-weight: 200;
 }
 
 /* left  side container */
